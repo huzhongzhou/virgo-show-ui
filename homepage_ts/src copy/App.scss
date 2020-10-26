@@ -1,0 +1,242 @@
+$bodywidth:80%;
+$logoheight:80px;
+$picturemargin:20px;
+$containerwidth:150px;
+$picturetop:10px;
+$imagesize:788px;
+$itemtop:25px;
+$itemwidth:150px;
+$titlesize:110px;
+$start:flex-start;
+$center:center;
+$size:130%;
+$weight:500;
+$around:space-around;
+$between:space-between;
+$end:flex-end;
+$footersize:63px;
+$smallbasis:4.7%;
+$largebasis:11%;
+$rowwidth:4px;
+@mixin serviceimg {
+    width:60.33px;
+    height:60px;
+}
+@mixin hide {
+    position:absolute;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    background-color:white ;
+}
+.body{
+    width:$bodywidth;
+    margin:0 auto;
+    font-family:'PingFang HK';
+}
+.flex-container{
+    display:flex;
+}
+.flex-container img{
+    height: $logoheight;
+}
+.flex-container2{
+    display:flex;
+    margin-top:$picturetop;
+}
+.flex-container3{
+    display:flex;
+    margin-top:$itemtop
+}
+.flex-container3 *{
+    width:$containerwidth;
+    font-size:large;
+    color:black;
+}
+.flex-container3 *:hover{
+    color:#D3BCB4;
+}
+.flex-container4{
+    display:flex;
+    margin-top:$itemtop;
+    margin-left:auto;
+    margin-right:auto;
+    width:$imagesize;
+}
+.flex-container5{
+    margin-left:auto;
+    margin-right:auto;
+    font-size:x-small;
+    width:$imagesize;
+    margin-top:$itemtop;
+    display:flex;
+    font-size: x-small;
+}
+.flex-container5 *{
+    width:$footersize;
+}
+.flex-container6{
+    display: flex;
+    font-size: x-small;
+    margin-top: 10px;
+}
+.image-size{
+    width:$imagesize;
+    height: 100%;
+}
+.img1{
+    @include serviceimg();
+}
+.jc--start{
+    justify-content: $start;
+}
+.jc--center{
+    justify-content: $center;
+    text-align: center;
+}
+.jc--space-around{
+ justify-content:$around ;
+}
+.jc--space-between{
+justify-content: $between;
+text-align: center;
+}
+.jc--end{
+    justify-content: $end;
+}
+.fg-4{
+    flex-basis: $smallbasis;
+}
+.fg-6{
+    flex-basis: $largebasis;
+}
+.row{
+    width: 45%;
+  height: 1px;
+  border-top: solid black 2px;
+}
+.dot{
+    height:$rowwidth;
+    width:$rowwidth;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+.icon1{
+    color: rgb(139, 138, 138);
+  }
+.ai--end{
+    align-items: $end;
+}
+.hidepicture{
+    @include hide();
+}
+.hidepicture *{
+    margin-top:10px;
+    height:60px;
+    text-decoration: none;
+  color: black;
+}
+.jc--center1{
+    @extend .jc--center;
+    font-size: 130%;
+    font-weight: 400;
+}
+
+.hidepictureex{
+    height:200px;
+    @include hide();
+    top: 374px;
+}
+.hidepictureex *{
+    margin-right: 4%;
+}
+.example1{
+    width:788px;
+    display:flex;
+    height:50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.efg1{
+    display: flex;
+    font-size: 14px;
+    flex-basis: 8%;
+    border:1px solid black; 
+    height:58%;
+}
+.efg2{
+  display: flex;
+  font-size: 14px;
+  flex-basis: 7.7%;
+  border:1px solid black; 
+  height:58%;
+}
+.efg4{
+  display: flex;
+  font-size: 14px;
+  flex-basis: 15%;
+  border:1px solid black; 
+  height:58%;
+}
+.ai--center{
+  align-items: center;
+}
+.hidepicture1{
+   @include hide();
+    top: 184px;
+  }
+  .text{
+    display:flex;
+    flex-basis:45%
+  }
+
+  .flexservice{
+    margin-top: 3px;
+    display:flex;
+    height:70px;
+  }
+  .cate{
+    border:1px solid black;
+    display:flex;
+    height:50%;
+    flex-basis: 7%;
+    font-size:60%;
+    font-weight:500;
+    word-break: break-all;
+    font-family: 'PingFang HK';
+  }
+  .cateblank{
+    display:flex;
+    flex-basis: 3.5%;
+  }
+ 
+  .sfg{
+    flex-grow: 2;
+  }
+  .sfg-5{
+     font-size: 68%;
+     word-break:break-all;
+     font-family: 'PingFang HK';
+  }
+  .simg1{
+      font-size:290%;
+  }
+  .itemservice{
+    display:flex;
+    width:100%;
+  }
+  .ai--center{
+    align-items: center;
+  }
+  .picture{
+    display:flex;
+    flex-basis: 48%;
+  }
+  .blank{
+    display:flex;
+    flex-basis:5%;
+  }
+  .flexserviceblank{
+    height: 23px;
+  }

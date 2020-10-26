@@ -1,0 +1,35 @@
+.text1{
+    /* margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px; */
+    display: flex;
+   /*  box-sizing: border-box;
+    border:1px solid black; */
+    flex-basis:100%;
+    flex-direction: column;
+  }
+  .title{
+    color: rgb(190, 184, 184);
+
+    display: flex;
+    /* box-sizing: border-box;
+    border:1px solid black; */
+    font-size:230%;
+    flex-basis: 10%;
+    width:90%
+  }
+  
+  .file{
+    color: rgb(190, 184, 184);
+    flex-direction: column;
+    /* margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 3px; */
+    display: flex;
+   /*  box-sizing: border-box;
+    border:1px solid black; */
+    flex-basis: 90%;
+    font-size: 13px;
+  }

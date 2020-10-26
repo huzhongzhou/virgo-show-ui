@@ -1,0 +1,84 @@
+.app{
+    margin:0;
+    padding: 0;
+    font-family: 'PingFang HK';
+    background-color: rgb(31, 28, 51);
+  }
+  .routerbody{
+    width:80%;
+    margin:0 auto;
+    height: 100vh;
+    
+  }
+  .close{
+    font-size: 40px;
+    color: bisque;
+  }
+  .flex-container8{
+    display:flex;
+   /*  box-sizing: border-box;
+    border:1px solid black; */
+    height: 82%;
+   
+  }
+  .routeritem{
+    /* margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px; */
+    display:flex;
+   /*  box-sizing: border-box;
+    border:1px solid black; */
+    flex-basis: 25%;
+    flex-direction: column;
+  }
+  .routertext{
+   /*  margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px; */
+    display: flex;
+    /* box-sizing: border-box;
+    border:1px solid black; */
+    flex-basis:75%;
+    flex-direction: column;
+  }
+  .routeritemblank{
+    display: flex;
+    /* box-sizing: border-box;
+    border:1px solid black; */
+    flex-basis: 10%;
+  }
+  .item1{
+    display: flex;
+    /* box-sizing: border-box;
+    border:1px solid black; */
+    flex-basis: 8%;
+    font-size: 150%;
+    align-items: center;
+  }
+  .itemfont{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 300;
+  }
+  
+  .closebtn{
+    
+    display: flex;
+   /*  box-sizing: border-box;
+    border:1px solid black; */
+    height:8%;
+  }
+  .routerblank{
+    display: flex;
+    /* box-sizing: border-box;
+    border:1px solid black; */
+    height:5%;
+  }
+  .activeclass::after{
+    content: ' >';
+    color: white;
+  }
+  

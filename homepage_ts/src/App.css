@@ -1,0 +1,132 @@
+
+.body{
+  width:80%;
+  margin:0 auto;
+  font-family: 'PingFang HK';
+}
+.flex-container{
+  display:flex; /* 0 1*/
+  /* box-sizing: border-box;
+  border:1px solid black; */
+}
+.flex-container img{ 
+  height: 80px;
+}
+
+.flex-container2{
+  margin-top: 10px;
+  display:flex; /* 2 5*/
+ /*  box-sizing: border-box;
+  border:1px solid black; */
+}
+.flex-container3{
+  margin-top: 25px; /* 3 0*/
+  display:flex;
+  /* box-sizing: border-box;
+  border:1px solid black; */
+}
+.flex-container3 *{
+  width: 150px;
+  font-size: large;
+  color: #0E172A;
+}
+.flex-container3 *:hover{
+  opacity: 0.5;
+  color: #D3BCB4;
+}
+.flex-container4{
+  margin-left: auto;
+  margin-right: auto; /* 4 2*/
+  width:788px;
+  margin-top: 25px;
+  display:flex;
+ /*  box-sizing: border-box; */
+}
+.flex-container6{
+  margin-top: 10px;
+  display:flex;
+ /*  box-sizing: border-box;
+  border:1px solid black; */
+  font-size: x-small;/* 7 8*/
+}
+.image-size{
+  width:788px;
+  height:100%
+}
+.img1{
+ /* width:60.33px;
+ height:60px */
+ width:60.33px;
+ height:60px
+}
+/* .title{
+  font-size: 160%;
+} */
+.jc--start{
+  justify-content: flex-start;
+}
+.jc--center{
+  justify-content: center;
+  text-align: center;
+}
+/* .jc--itemcenter{
+  justify-content: center;
+  text-align: center;
+  font-size: 130%;
+  font-weight: 500;
+} */
+.jc--space-around{
+  justify-content: space-around;
+}
+.jc--space-between{
+  justify-content: space-between;
+  text-align: center;
+}
+.jc--end{
+  justify-content: flex-end;
+}
+
+.fg-4{
+  flex-basis: 4.7%;
+}
+.fg-6{
+  flex-basis: 11%;
+}
+
+.row{
+  width: 45%;
+  height: 1px;
+  border-top: solid black 2px;
+}
+.flex-container5{ /* 6 3*/
+  margin-left: auto;
+  margin-right: auto;
+  width:788px;
+  margin-top: 25px;
+  display:flex;
+  /* box-sizing: border-box;
+  border:1px solid black; */
+  font-size: x-small;
+}
+.flex-container5 *{
+  width: 63px;
+}
+.dot {
+  height: 4px;
+  width: 4px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+.icon1{
+  color: rgb(139, 138, 138);
+}
+.ai--end{
+  align-items: flex-end;
+}
+/* .border{
+  box-sizing: border-box;
+  border:1px solid white;
+} */
+
+

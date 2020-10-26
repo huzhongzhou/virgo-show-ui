@@ -1,0 +1,17 @@
+.hidepicturehto{
+    position:absolute;
+    width:80%;
+    top: 222px;
+    display: flex;
+    flex-direction: column;
+    background-color:white ;
+    box-sizing: border-box;
+    border:1px solid black;
+  }
+  .hidepicturehto *{
+      margin-top:10px;
+      height:60px;
+  }
+ 
+
+  

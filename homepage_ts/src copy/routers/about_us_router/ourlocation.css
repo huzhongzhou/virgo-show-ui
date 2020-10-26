@@ -1,0 +1,94 @@
+
+.file2{
+    color: rgb(190, 184, 184);
+    flex-direction: column;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3%;
+    margin-right: 3px;
+    display: flex;
+  /*   box-sizing: border-box;
+    border:1px solid black; */
+    flex-basis: 90%;
+  }
+  .line{
+    background-color: white;
+    color: white;
+    margin: 0;
+  }
+  .map{
+      display: flex;
+      /* box-sizing: border-box;
+      border:1px solid black; */
+      flex-basis: 30%;
+      background-color: burlywood;
+  }
+  .locblank{
+    display: flex;
+    /* box-sizing: border-box;
+    border:1px solid black; */
+    flex-basis: 5%;
+  }
+  .locblank2{
+    display: flex;
+    /* box-sizing: border-box;
+    border:1px solid black; */
+    flex-basis: 8%;
+    align-items: center;
+  }
+  .info{
+      display: flex;
+     /*  box-sizing: border-box;
+      border:1px solid black; */
+      flex-basis: 3%;
+      background-color: burlywood;
+      color: black;
+      font-size: 13px;
+  }
+  .littleblank{
+    display: flex;
+    box-sizing: border-box;
+    border:1px solid black;
+    flex-basis: 1%;
+  }
+  .storeinfo{
+    display: flex;
+    /* box-sizing: border-box;
+    border:1px solid black; */
+    flex-basis: 2.5%;
+    flex-direction: row;
+    font-size: 13px;
+  }
+  .storeinfo *{
+    background-color: burlywood;
+    color: black;
+  }
+  .fg-3{
+      display: flex;
+      flex-basis: 30%;
+  }
+  .fg-2{
+      display: flex;
+      flex-basis: 28%; 
+  }
+  .fg-1{
+      display: flex;
+      flex-basis: 12%;
+  }
+  .storeinfo2{
+      font-size: 10px;
+    display: flex;
+    /* box-sizing: border-box;
+    border:1px solid black; */
+    flex-basis: 2.5%;
+    flex-direction: row;
+  }
+  
+  .addition{
+    display: flex;
+   /*  box-sizing: border-box;
+    border:1px solid black; */
+    font-size: 13px;
+    color: bisque;
+    text-decoration: underline;
+  }

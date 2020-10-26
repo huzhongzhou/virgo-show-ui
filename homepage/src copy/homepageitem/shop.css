@@ -1,0 +1,20 @@
+.shidepicture{
+    position:absolute;
+    width:79%;
+    top: 347px;
+    display: flex;
+    flex-direction: column;
+    background-color:white ;
+  }
+  .shidepicture *{
+      margin-top:10px;
+      height:60px;
+  }
+  .jc--center1{
+    justify-content: center;
+    text-align: center;
+    font-size: 130%;
+    font-weight: 400;
+  }
+
+  

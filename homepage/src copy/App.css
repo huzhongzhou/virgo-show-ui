@@ -1,0 +1,151 @@
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body{
+  width:80%;
+  margin:0 auto;
+  font-family: 'PingFang HK';
+}
+.flex-container1{
+  display:flex;
+  box-sizing: border-box;
+/*   border:1px solid black; */
+}
+.flex-container1 img{ 
+  height: 80px;
+}
+.flex-container6{
+  display:flex;
+/*   box-sizing: border-box;
+  border:1px solid black; */
+}
+.flex-container5{
+  margin-top: 10px;
+  display:flex;
+ /*  box-sizing: border-box;
+  border:1px solid black; */
+}
+.flex-container{
+  margin-top: 25px;
+  display:flex;
+  box-sizing: border-box;
+  border:1px solid black;
+  
+}
+.flex-container *{
+  width: 150px;
+}
+.flex-container2{
+  margin-left: auto;
+  margin-right: auto;
+  width:788px;
+  margin-top: 25px;
+  display:flex;
+ /*  box-sizing: border-box; */
+}
+.flex-container8{
+  margin-top: 10px;
+  display:flex;
+ /*  box-sizing: border-box;
+  border:1px solid black; */
+  font-size: x-small;
+}
+.image-size{
+  width:788px;
+  height:100%
+}
+.title{
+  font-size: 160%;
+}
+.jc--start{
+  justify-content: flex-start;
+}
+.jc--center{
+  justify-content: center;
+  text-align: center;
+  font-size: 130%;
+  font-weight: 500;
+}
+.jc--space-around{
+  justify-content: space-around;
+}
+.jc--space-between{
+  justify-content: space-between;
+  text-align: center;
+}
+.jc--end{
+  justify-content: flex-end;
+}
+.fg-1{
+  flex-basis: 15%;
+  color: #0E172A;
+}
+.fg-1:hover{
+  opacity: 0.5;
+  color: #D3BCB4;
+}
+.fg-2{
+  flex-basis: 23%;
+  color: #0E172A;
+}
+.fg-2:hover{
+  opacity: 0.5;
+  color: #D3BCB4;
+}
+.fg-3{
+  flex-basis: 20%;
+  color: #0E172A;
+}
+.fg-3:hover{
+  opacity: 0.5;
+  color: #D3BCB4;
+}
+.fg-4{
+  flex-basis: 4.7%;
+}
+.fg-6{
+  flex-basis: 11%;
+}
+.fg-7{
+  flex-basis: 4.7%;
+}
+.row{
+  width: 45%;
+  height: 1px;
+  border-top: solid black 2px;
+}
+.flex-container3{
+  margin-left: auto;
+  margin-right: auto;
+  width:788px;
+  margin-top: 20px;
+  display:flex;
+  /* box-sizing: border-box;
+  border:1px solid black; */
+  font-size: x-small;
+}
+.flex-container3 *{
+  width: 63px;
+}
+.dot {
+  height: 4px;
+  width: 4px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+.icon1{
+  color: rgb(139, 138, 138);
+}
+.ai--end{
+  align-items: flex-end;
+}
+.border{
+  box-sizing: border-box;
+  border:1px solid white;
+}
+
+

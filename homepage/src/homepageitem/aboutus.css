@@ -1,0 +1,21 @@
+.hidepicture{
+    position:absolute;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    background-color:white ;
+ 
+  }
+  .hidepicture *{
+      margin-top:10px;
+      height:60px;
+  }
+  .jc--center1{
+    font-size: 130%;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+    
+  }
+
+  

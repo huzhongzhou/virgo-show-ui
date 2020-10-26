@@ -1,0 +1,50 @@
+.hidepictureex{
+    height:200px;
+    position:absolute;
+    width:80%;
+    top: 374px;
+    display: flex;
+    flex-direction: column;
+    background-color:white ;
+  
+  }
+  .hidepictureex *{
+      margin-right: 4%;
+  }
+  
+  .example1{
+      width:788px;
+      display:flex;
+      height:50px;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: 'PingFang HK';
+  }
+  .jc--center2{
+    justify-content: center;
+    text-align: center;
+  }
+  .efg1{
+      display: flex;
+      font-size: 14px;
+      flex-basis: 8%;
+      border:1px solid black; 
+      height:58%;
+  }
+  .efg2{
+    display: flex;
+    font-size: 14px;
+    flex-basis: 7.7%;
+    border:1px solid black; 
+    height:58%;
+}
+  .efg4{
+    display: flex;
+    font-size: 14px;
+    flex-basis: 15%;
+    border:1px solid black; 
+    height:58%;
+  }
+  .ai--center{
+    align-items: center;
+  }
